@@ -73,6 +73,23 @@ The dataset contains **1,000 samples** with 9 categorical and numerical features
 5. **Run inference**  
    Use the `inference.py` script to query the deployed model and get predictions on new data.
 
+📈 **Model Performance**
+
+| Metric         | Value  |
+|----------------|--------|
+| Accuracy       | 0.72   |
+| Precision      | 0.77   |
+| Recall         | 0.81   |
+| F1-Score       | 0.79   |
+| AUC-ROC        | 0.74   |
+
+🔢 **Confusion Matrix**
+
+|                | Predicted: Bad Risk | Predicted: Good Risk |
+|----------------|---------------------|----------------------|
+| **Actual: Bad Risk**   | 40                  | 31                   |
+| **Actual: Good Risk**  | 25                  | 104                  |
+
 ## 🛠 Requirements
 
 - **Python 3.8+**
