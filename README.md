@@ -2,7 +2,11 @@
 This repository contains the implementation of a credit risk classification model developed using Amazon SageMaker and Amazon Bedrock.
 
 [![Watch the development overview](https://img.shields.io/badge/Watch%20on-YouTube-red?logo=youtube&logoColor=white)](https://youtu.be/wYHicxTEm5Y)
+https://github.com/rodrigourquizo/challenge-ai/blob/main/workflow.png
 
+📊 Workflow Architecture
+
+![Architecture](https://github.com/rodrigourquizo/challenge-ai/blob/3da583fac0637f891964b6c70e3112e33877c245/workflow.png)
 
 ## 🎯 Objective
 Build an intelligent, end-to-end pipeline capable of:
