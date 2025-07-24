@@ -1,6 +1,9 @@
 # 💳 Challenge AI: Bank Transaction Fraud Detection
 This repository contains the implementation of a credit risk classification model developed using Amazon SageMaker and Amazon Bedrock.
 
+[![Watch the development overview](https://img.shields.io/badge/Watch%20on-YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=abc123xyz)
+
+
 ## 🎯 Objective
 Build an intelligent, end-to-end pipeline capable of:
 -Generating credit risk descriptions using generative models like GPT or LLaMA through AWS Bedrock.
