@@ -9,6 +9,7 @@ This repository contains the implementation of a credit risk classification mode
 
 ## 🎯 Objective
 Build an intelligent, end-to-end pipeline capable of:
+
 -Generating credit risk descriptions using generative models like GPT or LLaMA through AWS Bedrock.
 
 -Classifying descriptions as “good risk” or “bad risk”, again using Bedrock models.
