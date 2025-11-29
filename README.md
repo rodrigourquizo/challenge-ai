@@ -1,6 +1,6 @@
 # Credit Risk Inference Pipeline
 
-![Flow Diagram](flow.png)
+![Flow Diagram](assets/flow.png)
 
 This project implements an inference pipeline for credit risk assessment using AWS Bedrock and Amazon SageMaker.
 
