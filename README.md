@@ -1,4 +1,4 @@
-# Credit Risk Inference Pipeline
+# Fraud Detection in Banking Transactions using LLaMA and AWS
 
 ![Flow Diagram](assets/flow.png)
 
