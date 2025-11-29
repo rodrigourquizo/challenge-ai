@@ -4,18 +4,18 @@
 
 This project implements an inference pipeline for credit risk assessment using AWS Bedrock and Amazon SageMaker.
 
-## Description
+## 📝 Description
 
 The system processes credit applicant data, enriches the information by generating risk profile descriptions using a language model (Llama 3 on AWS Bedrock), and predicts the risk probability (good or bad) using an XGBoost model deployed on SageMaker.
 
-## Features
+## 🧩 Features
 
 - **Data Preprocessing**: Data cleaning and transformation, including One-Hot encoding for categorical variables.
 - **AI-Powered Description Generation**: Uses AWS Bedrock (Llama 3) to generate textual risk profile descriptions based on customer attributes.
 - **Risk Inference**: Credit risk classification using a SageMaker endpoint.
 - **Evaluation Metrics**: Automatic calculation of Accuracy, Precision, Recall, F1-Score, and AUC-ROC.
 
-## Results
+## 📊 Results
 
 The model achieved the following performance metrics:
 
@@ -26,18 +26,18 @@ The model achieved the following performance metrics:
 - **AUC-ROC**: 0.74
 
 **Confusion Matrix**:
-```
-[[ 40  31]
- [ 25 104]]
-```
+| | Predicted: Good Risk | Predicted: Bad Risk |
+|---|---|---|
+| **Actual: Good Risk** | 40 | 31 |
+| **Actual: Bad Risk** | 25 | 104 |
 
-## Prerequisites
+## 📋 Prerequisites
 
 - Python 3.8 or higher
 - AWS Account with permissions to access Bedrock and SageMaker.
 - AWS Credentials configured locally (e.g., in `~/.aws/credentials` or environment variables).
 
-## Installation
+## 🚀 Installation
 
 1. Clone this repository:
    ```bash
@@ -49,7 +49,7 @@ The model achieved the following performance metrics:
    pip install -r requirements.txt
    ```
 
-## Configuration
+## ⚙️ Configuration
 
 The `src/config.py` file contains the main configurations. Ensure the values match your AWS environment:
 
@@ -57,7 +57,7 @@ The `src/config.py` file contains the main configurations. Ensure the values mat
 - `BEDROCK_MODEL_ID`: Bedrock Model ID (e.g., Llama 3).
 - `SAGEMAKER_ENDPOINT_NAME`: Deployed SageMaker endpoint name.
 
-## Usage
+## 💻 Usage
 
 To run inference on a data file (Excel or CSV):
 
@@ -65,7 +65,7 @@ To run inference on a data file (Excel or CSV):
 python src/inference.py
 ```
 
-## Project Structure
+## 📂 Project Structure
 
 - `src/`: Source code.
   - `inference.py`: Main inference script.
