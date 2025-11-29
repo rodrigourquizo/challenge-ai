@@ -67,13 +67,19 @@ python src/inference.py
 
 ## 📂 Project Structure
 
-- `src/`: Source code.
-  - `inference.py`: Main inference script.
-  - `processing.py`: Preprocessing and description generation logic.
-  - `config.py`: Configuration variables.
-- `data/`: Data directory.
-  - `raw/`: Original data.
-  - `processed/`: Processed data (if applicable).
-- `notebooks/`: Jupyter notebooks for exploration and testing.
-- `tests/`: Unit tests.
-- `requirements.txt`: List of dependencies.
+```
+├── assets/
+│   └── flow.png
+├── data/
+│   ├── processed/
+│   └── raw/
+├── notebooks/
+├── src/
+│   ├── config.py
+│   ├── inference.py
+│   └── processing.py
+├── tests/
+├── .gitignore
+├── README.md
+└── requirements.txt
+```
